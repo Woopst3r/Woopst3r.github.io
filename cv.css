@@ -1,0 +1,174 @@
+.footer {
+    background: #111;
+    height: auto;
+    width: 100%;
+    padding-top: 40px;
+    color: #fff;
+    background-image:linear-gradient(to right,#0af05383,#0a21f07c),url()
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.copyright {
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.copyright p {
+    font-size: 14px;
+    word-spacing: 2px;
+}
+body{
+    background: #0f927a;
+    background-image: url(photo-1638184984605-af1f05249a56.png);
+    background-size: cover;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+p{
+    color: white;
+    font-size: 15px;
+    font-style: italic;
+}
+h2{
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+}
+
+
+.TeskBar :hover{
+    color: red;
+}
+.TeskBar{
+    text-align: center;
+    background-color: black;
+    padding: 10;
+}
+a:link{
+    color: white;
+    padding: 10%;
+}
+.sticky-footer{
+    position:sticky;
+    top: 100%;
+}
+a:visited{
+    color: white;
+}
+.TeskBar ul{
+    display: flex;
+}
+
+.TeskBar ul li a{
+    display: block;
+    color: #fefefe;
+    font-size: 20px;
+    padding: 10px 25px;
+    transition: 0.2s;
+    margin: 0 5px;
+}
+
+.TeskBar ul li a:hover{
+    color: #11101b;
+    background: #fefefe;
+}
+
+.TeskBar ul li a.active{
+    color: #11101b;
+    background: #fefefe;
+}
+
+.foto1{
+    margin: 10 33% ;
+}
+
+.wrapper {
+    margin: 42px auto;
+    width: auto;
+}
+
+.container{
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: auto;
+}
+
+
+.home{
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+.Over_me{
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+
+.test{
+    color: white;
+}
+
+@media screen and (max-width: 800px) {
+}
+@media screen and (max-width: 500px) {
+}
+@media screen and (max-width: 500px) {
+    .home {
+    width: 17em;
+    height: 50vh;
+    }
+    .nav-item{
+    width: 100%;
+    }
+    .about-overflow{
+    padding-right: 10px;
+    padding-left: 5px;
+    flex-flow: column nowrap;
+    align-content: center;
+    }
+}
+
+.image-container {
+    padding-top: 5%;
+    margin: 0 auto;
+}
+
+.image-container img {
+    display: block;
+    margin: 0 auto;
+}
+
+.jfoto{
+    max-width: 200px;
+    float: right;
+    }
+
+.contact{
+    color: white;
+    margin-top: 10%;
+}
+.space{
+    margin-top: 10%;
+}
+.link-4{
+    text-align: center;
+}
